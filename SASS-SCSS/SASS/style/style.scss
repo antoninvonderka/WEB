@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+$primary-color: #000;
+$primary-background: #fff84e;
+$font-stack: 'Poppins', sans-serif;
+
+body {
+    font: 100% $font-stack;
+    color: $primary-color;
+    font-family: $font-stack;
+    background-color: $primary-background;
+  }
+
+@use 'header';
+@use 'main';
